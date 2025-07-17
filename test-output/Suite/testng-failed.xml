@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run in chromebrowser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="amazonmavenpackage.AmazonMavenProject.TestCase15_CartPageWithoutLogin">
+        <methods>
+          <include name="Launch"/>
+          <include name="withoutLoginReachCartPage"/>
+        </methods>
+      </class> <!-- amazonmavenpackage.AmazonMavenProject.TestCase15_CartPageWithoutLogin -->
+    </classes>
+  </test> <!-- Run in chromebrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
