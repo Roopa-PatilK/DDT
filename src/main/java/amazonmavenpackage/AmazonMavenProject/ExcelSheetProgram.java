@@ -20,7 +20,7 @@ public class ExcelSheetProgram{
 		Workbook wb=WorkbookFactory.create(f1);
         
         username=NumberToTextConverter.toText(wb.getSheet("Registration").getRow(1).getCell(0).getNumericCellValue());
-         password=wb.getSheet("Registration").getRow(1).getCell(0).getStringCellValue();
+         password=wb.getSheet("Registration").getRow(1).getCell(1).getStringCellValue();
         
         
         
